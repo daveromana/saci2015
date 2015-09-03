@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?i77ow1');
+    src:url('../fonts/icomoon.eot?#iefixi77ow1') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?i77ow1') format('truetype'),
+        url('../fonts/icomoon.woff?i77ow1') format('woff'),
+        url('../fonts/icomoon.svg?i77ow1#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+    content: "\e600";
+}
+.icon-thumbs-o-up:before {
+    content: "\e601";
+}
+.icon-mail:before {
+    content: "\e602";
+}
+.icon-menu:before {
+    content: "\e605";
+}
+.icon-message:before {
+    content: "\e603";
+}
+.icon-phone:before {
+    content: "\e604";
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+}
+*, body, html {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.menu {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.9);
+    -webkit-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+}
+.menu.aberto {
+    left: 0;
+}
+.menu h2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9em;
+    line-height: 35px;
+    padding: 0 35px;
+}
+.menu ul li {
+    color: #FFF;
+    padding: 0 35px;
+    line-height: 40px;
+    font-size: 0.8em;
+}
+
+header {
+    background-color: #18BD9B;
+    padding: 15px 15px 25px;
+}
+header nav ul {
+    display: table;
+    width: 100%;
+}
+header nav ul li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+    text-align: center;
+    color: #FFF;
+}
+header nav ul li:first-child,
+header nav ul li:last-child{
+    width: 50px;
+}
+header nav ul li span{
+    font-size: 1.2em;
+}
+
+header .dados{
+    margin: 20px 0;
+}
+header .dados img{
+    display: block;
+    margin: 0 auto 15px;
+    width: 120px;
+}
+header .dados h2, 
+header .dados h3{
+    text-align: center;
+    font-weight: normal;
+    font-size: 1em;
+    margin: 3px 0;
+}
+header .dados h2 {
+    color: #FFF;
+}
+header .dados h3 {
+    font-size: 0.9em;
+    color: #286A69;
+}
+
+header .acoes {
+    text-align: center;
+}
+header .acoes a{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    margin: 0 2%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #05936D;
+    text-align: center;
+    text-decoration: none;
+}
+header .acoes a span{
+    color: #FFF;
+    font-size: 1.2em;
+    position: relative;
+    top:2px;
+}
+section {
+    padding: 15px;
+}
+section h1,
+section h2,
+section p {
+    font-size: 0.9em;
+}
+section p {
+    margin-bottom: 20px;
+}
